@@ -5,7 +5,7 @@
 }
 
 .profile .header{
-    max-width: 40vh;
+    max-height: 40vh;
     width: 100%;
     border-radius: 25px 25px 0 0;
     clip-path: polygon(100% 0, 100% 80%, 80% 100%, 20% 100%, 0 80%, 0 0 );  
@@ -23,5 +23,57 @@
 .profile p {
     margin-top: 10px;
     height: 20px;
-    
+
+}
+
+.profile ul{
+    list-style-type: none;
+    margin: 20px 0 80px 0;
+}
+
+.profile ul li{
+    display: inline;
+}
+
+.profile .footer{
+    position: sticky;
+    top: calc(100vh -100px);
+}
+
+.profile table{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.profile ion-icon{
+    color: var(--accent-02);
+    transition: color .5s, border-color .5s, background-color .5s;
+    margin-bottom: -7px;
+
+}
+
+.profile ul ion-icon{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--accent-04);
+}
+
+.profile ul ion-icon:hover {
+    border-color: #D5F3F9;
+
+}
+
+.profile ion-icon:hover {
+    color: var(--primary-color);
+
+}
+
+.profile table ion-icon{
+    padding: 5px;
+    border-radius: 10px;
+    transition: color .5s, background-color .5s;
+}
+
+.profile td:hover ion-icon{
+    background-color: var(--primary-color);
+    color: var(--accent-04);
 }

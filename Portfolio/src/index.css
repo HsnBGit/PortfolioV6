@@ -64,12 +64,29 @@ body.light{
 }
 
 /* For the Mobiles */
-@media screen and (width <= 768px){
+@media screen and (width <= 769px){
   .container{
-    grid-template-columns: 85px 1fr;
+    grid-template-columns: 1fr;
     max-width: 500px;
     padding: 20px;
     padding-top: 50px;  
-    
   }
+
+  .navbar{
+    display: inline-grid;
+    grid-template-columns: 85px 1fr;
+
+  }
+
+  .nav{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px;
+  }
+
+  .nav .dividar, nav p {
+    display: none;
+  }
+
 }
+

@@ -1,0 +1,48 @@
+/* -----------Nav Bar-------------- */
+
+.navbar {
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-auto-columns: max-content;
+    grid-auto-rows: max-content;
+    position: sticky;
+    top: 50px;
+    z-index: 5;
+    cursor: pointer;
+    font-weight: 500px;
+    text-transform: uppercase;
+    color: var(--accent-02);
+}
+.navbar > div {
+    padding: 25px 10px;
+
+}
+
+.navbar ion-icon{
+    font-size: 32px;
+    margin: auto;
+
+}
+
+.navbar .active, .navbar .item:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+
+.dividar {
+    height: 2px;
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+.ltr{
+    background: radial-gradient(ellipse at left, var(--accent-02) -70%, transparent 80%);
+}
+
+.rtr{
+    background: radial-gradient(ellipse at right, var(--accent-02) -70%, transparent 80%);
+}

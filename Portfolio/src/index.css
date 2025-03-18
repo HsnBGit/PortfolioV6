@@ -61,6 +61,11 @@ body.light{
     grid-template-columns: 85px 1fr;
     max-width: 650px;
   }
+
+  .content {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
 }
 
 /* For the Mobiles */

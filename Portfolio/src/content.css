@@ -54,6 +54,7 @@ section {
     padding: 20px;
     border-radius: 10px;
     border: var(--accent-04) 2px solid;
+    transition: border-color .5s;
     cursor: pointer;
 }
 

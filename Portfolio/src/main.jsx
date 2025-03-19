@@ -4,11 +4,13 @@ import './index.css'
 import Navnar from './Navnar.jsx'
 import Profile from './Profile.jsx'
 import Content from './content.jsx'
+import Experience from './Experience.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navnar/>
     <Profile/>
     <Content/>
+    <Experience/>
   </StrictMode>,
 )

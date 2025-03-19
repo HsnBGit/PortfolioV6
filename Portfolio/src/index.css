@@ -170,7 +170,6 @@ body.light{
 
   .projects{
     grid-template-columns: repeat(1, 1fr);
-    
     grid-template-areas: 
     "p1"
     "p2"
@@ -182,10 +181,8 @@ body.light{
     
   }
 
-  .articles{
-    grid-template-columns: 1fr;
-  }
 
-  
+
+
 }
 

@@ -55,3 +55,11 @@
     align-items: center;
     padding-top: 10px;
 }
+
+
+@media screen and (width <= 769px){
+    .articles{
+        grid-template-columns: 1fr;
+    }
+
+}

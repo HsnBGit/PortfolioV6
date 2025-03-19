@@ -10,11 +10,11 @@ import Articles from './Articles.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Articles/>
     <Navnar/>
     <Profile/>
     <Content/>
     <Experience/>
     <Projects/>
-    <Articles/>
   </StrictMode>,
 )

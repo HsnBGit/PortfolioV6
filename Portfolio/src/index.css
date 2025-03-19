@@ -181,6 +181,10 @@ body.light{
     
   }
 
+  .contact{
+    grid-template-columns: 1fr;
+  }
+
 
 
 

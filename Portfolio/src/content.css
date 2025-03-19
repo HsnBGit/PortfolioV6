@@ -140,32 +140,3 @@ section {
     background-color: var(--primary-color);
 }
 
-.contribution{
-    display: grid;
-    grid-template-columns: 1fr;
-    border: var(--accent-04) 3px solid;
-    border-radius: 10px;
-    width: 100%;
-}
-.contribution activity-graph{
-    padding: 10px 20px;
-    color: var(--accent-02);
-    --activity-graph-text-color: var(--accent-04);
-    --activity-graph-rounded: 2px;
-    --activity-graph-level-0-bg: #0E4545;
-    --activity-graph-level-1-bg: #006C69;
-    --activity-graph-level-2-bg: #26A0A7;
-    --activity-graph-level-3-bg: #25A0A7;
-    --activity-graph-level-4-bg: #37C9D5;
-}
-
-.contribution > div{
-    overflow: auto;
-}
-.contribution figure{
-    overflow: hidden;
-}
-.contribution table{
-    border-spacing: 2px;
-    
-}

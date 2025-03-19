@@ -11,6 +11,7 @@ import Contact from './Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
     <Articles/>
     <Navnar/>
     <Profile/>
@@ -18,5 +19,5 @@ createRoot(document.getElementById('root')).render(
     <Experience/>
     <Projects/>
     <Contact/>
-  </StrictMode>,
+  </StrictMode>
 )

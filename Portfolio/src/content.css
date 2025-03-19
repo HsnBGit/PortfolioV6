@@ -39,3 +39,24 @@ section {
     line-height: 1.2;
     font: 15px;
 }
+
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    color: var(--accent-02);
+}
+
+.skills > div {
+    background-color: var(--accent-04);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: var(--accent-04) 2px solid;
+    cursor: pointer;
+}
+
+.skills > div:hover{
+    border-color: var(--primary-color);
+}

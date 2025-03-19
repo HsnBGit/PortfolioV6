@@ -5,6 +5,7 @@ import Navnar from './Navnar.jsx'
 import Profile from './Profile.jsx'
 import Content from './content.jsx'
 import Experience from './Experience.jsx'
+import Projects from './Projects.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Profile/>
     <Content/>
     <Experience/>
+    <Projects/>
   </StrictMode>,
 )

@@ -62,6 +62,16 @@ body.light{
     grid-column: 3 / span 2;
 
   }
+  .projects{
+    grid-template-areas: 
+    "p1 p2 p2"
+    "p3 p4 p5"
+    "p3 p6 p6"
+    "p7 p6 p6"
+    
+    
+    ;
+  }
 }
 
 
@@ -95,6 +105,19 @@ body.light{
 
   .skills div:nth-child(7){
     grid-column: 1/4;
+  }
+
+
+  .projects{
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-template-areas:
+    "p1 p2"
+    "p3 p4"
+    "p5 p6"
+    "p7 p7"  
+    ;
+    
   }
 
 }
@@ -142,8 +165,21 @@ body.light{
   }
 
   .skills div:nth-child(7){
-    grid-column: 1/6;
+    grid-column: 1/5;
   }
 
+  .projects{
+    grid-template-columns: repeat(1, 1fr);
+    
+    grid-template-areas: 
+    "p1"
+    "p2"
+    "p3"
+    "p4"  
+    "p5"  
+    "p6"  
+    ;
+    
+  }
 }
 

@@ -1,0 +1,52 @@
+.projects {
+    display: grid;
+    gap: 10px;
+}
+
+.project-1 {grid-area: p1;}
+.project-2 {grid-area: p2;}
+.project-3 {grid-area: p3;}
+.project-4 {grid-area: p4;}
+.project-5 {grid-area: p5;}
+.project-6 {grid-area: p6;}
+
+.projects div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+
+.projects div{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.projects div:hover img {
+    filter: brightness(.5);
+
+}
+
+.projects div{
+    position: relative;
+
+}
+
+.projects h3{
+    position: absolute;
+    inset: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.projects div:hover h3{
+    opacity: 1;
+}
+
+body.light .projects h3{
+    color: var(--accent-04);
+}

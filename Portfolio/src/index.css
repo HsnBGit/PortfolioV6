@@ -181,5 +181,11 @@ body.light{
     ;
     
   }
+
+  .articles{
+    grid-template-columns: 1fr;
+  }
+
+  
 }
 

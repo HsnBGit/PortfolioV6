@@ -5,10 +5,12 @@ function BackgroundStar() {
 
   return (
 
+
     
     <div className='BackgroundStar'>
         <BackgroundStarjs id = 'Particles'/>
     </div>
+    
     
     
   )

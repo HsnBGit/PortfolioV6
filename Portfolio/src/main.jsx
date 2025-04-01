@@ -7,6 +7,8 @@ import Content from './content.jsx'
 import Experience from './Experience.jsx'
 import Projects from './Projects.jsx'
 import Articles from './Articles.jsx'
+import Articles from './Articles.jsx'
+import Articles from './Articles.jsx'
 import Contact from './Contact.jsx'
 
 createRoot(document.getElementById('root')).render(

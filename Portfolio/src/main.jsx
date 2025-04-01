@@ -16,6 +16,8 @@ createRoot(document.getElementById('root')).render(
 
     <Articles/>
     <Navnar/>
+    <Navnar/>
+    <Navnar/>
     <Profile/>
     <Content/>
     <Experience/>

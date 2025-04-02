@@ -2,7 +2,7 @@
 
 .navbar {
     display: grid;
-    gap: 5px;
+    gap: 8px;
     text-align: center;
     grid-template-columns: 1fr;
     grid-auto-columns: max-content;
@@ -20,10 +20,15 @@
 
 }
 
-.navbar ion-icon{
-    font-size: 32px;
+.navbar svg {
     margin: auto;
-
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+.navbar img{
+    margin: auto;
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
 }
 
 .navbar .active, .navbar .item:hover {

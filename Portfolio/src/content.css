@@ -39,7 +39,7 @@ section {
     margin: 30px auto;
 }
 
-.achivements{
+/* .achivements{
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--accent-04);
@@ -60,8 +60,11 @@ section {
     color: var(--accent-02);
     line-height: 1.2;
     font: 15px;
-}
+} */
 
+.content .skillName{
+    padding-top: 19px;
+}
 
 .skills {
     display: grid;
@@ -84,60 +87,27 @@ section {
     border-color: var(--primary-color);
 }
 
-.skills ion-icon{
-    color: var(--primary-color);
-    font-size: 32px;
+.skills img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
 }
 
-.skills .circle {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    background: conic-gradient(from 0deg, 
-                var(--primary-color) 0%, 
-                var(--primary-color) 0% var(--percent),
-                var(--accent-03) var(--percent));
-    border-radius: 50%;
-    margin-bottom: 5px;
-}
 
-.skills .circle::before {
-    content: "";
-    position: absolute;
-    inset: 8px;
-    background-color: var(--accent-04);
-    border-radius: 50%;
-}
-
-.skills .circle h4{
-    position: relative;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 3;
-}
-
-.skills div:nth-child(7){
+.skills div:nth-child(7) {
     background-color: inherit;
+    box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color);
+    animation: glow 1.5s infinite alternate;
 }
 
-.skills .progress-bar p{
-    display: flex;
-    justify-content: space-between;
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color);
+    }
+    to {
+        box-shadow: 0 0 20px var(--primary-color), 0 0 40px var(--primary-color);
+    }
 }
 
-.skills progress{
-    width: 100%;
-    appearance: none;
-    height: 10px;
-}
-.skills progress::-webkit-progress-bar{
-    border-radius: 10px;
-    background-color: var(--accent-04);
-}
-.skills progress::-webkit-progress-value{
-    border-radius: 10px;
-    background-color: var(--primary-color);
-}
 
 

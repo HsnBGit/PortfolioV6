@@ -3,6 +3,41 @@
     font-size: 20px;
 
 }
+.profile .con{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.5s, border-color 0.5s, background-color 0.5s;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.profile ul .con {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--accent-04);
+}
+
+.profile ul .con:hover {
+    border-color: #D5F3F9;
+    transform: scale(1.2);
+}
+
+.profile .con:hover {
+    transform: scale(1.2);
+    background-color: var(--primary-color);
+}
+
+.profile table .con{
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.profile td:hover .con{
+    background-color: var(--primary-color);
+    transform: scale(1.2);
+}
+
 
 .profile .header{
     max-height: 40vh;
@@ -43,37 +78,4 @@
 .profile table{
     width: 100%;
     padding-bottom: 15px;
-}
-.profile ion-icon{
-    color: var(--accent-02);
-    transition: color .5s, border-color .5s, background-color .5s;
-    margin-bottom: -7px;
-
-}
-
-.profile ul ion-icon{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: var(--accent-04);
-}
-
-.profile ul ion-icon:hover {
-    border-color: #D5F3F9;
-
-}
-
-.profile ion-icon:hover {
-    color: var(--primary-color);
-
-}
-
-.profile table ion-icon{
-    padding: 5px;
-    border-radius: 10px;
-    transition: color .5s, background-color .5s;
-}
-
-.profile td:hover ion-icon{
-    background-color: var(--primary-color);
-    color: var(--accent-04);
 }

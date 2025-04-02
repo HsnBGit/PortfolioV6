@@ -1,5 +1,6 @@
 {
   "name": "vire",
+  "homepage": "https://hsnbgit.github.io/PortfolioV6/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +8,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@iconscout/react-unicons": "^2.2.4",
     "@tsparticles/all": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
